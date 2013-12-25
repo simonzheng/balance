@@ -1,0 +1,489 @@
+/*spinny loading thing - reference: http://jsfiddle.net/gK9wH/9/ */
+#loader {
+    background: url("http://www.aveva.com/Images/ajax-loader.gif") no-repeat scroll center center ;
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 45%;
+	top: 57%;
+}
+
+.navbarText {
+	color: #81817B;
+	text-align: center;
+	margin-top: -4px;
+}
+
+.navIcons {
+	width: 15px;
+	height: 14px;
+	padding-right: 18px;
+	margin-bottom: 3px;
+	/*padding-left: 86px; - makes them a bit more central*/
+}
+
+
+.navRefresh {
+	width: 16px;
+	height: 16px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding-left: 10px;
+	float: left;
+}
+
+.menuImg {
+	width: 22px;
+	height: 16px;
+}
+
+.menu {
+	padding-bottom: 0px;
+}
+
+.banner {
+	vertical-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.refresh {
+	float: right;
+	margin-top: -5px;
+	padding-right: 8px;
+	margin-top: 3px;
+}
+
+.footer {
+	max-height: 40px;
+	width: 100%;
+}
+
+.footer li {
+	width: 20%;
+	text-align: center;
+	line-height: 50px;
+}
+
+.thumbsUp {
+	margin-top: -9px;
+	width: 20%;
+	text-align: center;
+}
+
+.thumbsDown {
+	margin-top: -5px;
+	width: 20%;
+	text-align: center;
+}
+
+
+.logo {
+	width: 46px;
+	height: 46px;
+}
+
+.hiddenLogo {
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+
+.footLogo {
+	position: fixed;
+	height: 50px;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.minilogo {
+	width: 15px;
+	height: 15px;	
+}
+
+.splash {
+	vertical-align: top;
+	padding-top: 0px;
+	margin-top: -2px;
+}
+
+p .muted .small {
+	color: #999;
+	font-size: 85%;
+}
+
+.subStory {
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding-right: 5px; 
+}
+
+.subStory i {
+	float: right;
+}
+
+.story a:hover{
+	text-decoration: none;
+}
+
+
+
+.plain:hover{
+	text-decoration: none;
+}
+
+
+/*  Header */
+
+.backBtn {
+	float: left;
+	padding-left: 10px;
+}
+
+.topBackBtn {
+	float: left;
+	width:20px;
+	height: 20px;
+	padding-top: 5px;
+}
+
+.topInfoBtn {
+	float: right;
+	position: relative;
+	vertical-align: top;
+	width:22px;
+	height: 22px;
+	margin-top: 5px;
+}
+
+
+.headerList li {
+	width: 100%;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.headerList li i {
+	padding-right: 10px;
+	vertical-align: middle;
+	width: 15px;
+	height: 20px;
+}
+
+
+
+
+/* For the main story at top of home page */
+.mainStory {
+	position: relative;
+	margin-bottom: 5px;
+	line-height: 1;
+}
+
+.mainStory-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.mainStory-caption{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 5px;
+	background: #333;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.mainStory-caption p{
+	line-height: 20px;
+	color: white;
+	margin-bottom: 0px;
+}
+.mainStory-caption span {
+	line-height: 20px;
+	margin-bottom: 2px;
+}
+
+.indexInfo{
+	font-size: 11px;
+}
+
+
+.btn-center {
+	text-align: center;
+}
+
+#huge1 {
+	font-size: 20px;
+}
+
+#huge2 {
+	font-size: 20px;
+}
+
+
+.logoQuiz {
+	width: 25px;
+	height: 25px;
+	float: right;
+}
+
+.backBtnQuiz {
+	float: left;
+	width: 20px;
+	height: 20px;
+	padding-top: 0px;
+}
+
+.scoreImgPrice {
+	width: 20px;
+	height: 20px;
+	padding-right: 1px;
+	vertical-align: center;
+}
+
+.scoreImgGroup {
+	width: 15px;
+	height: 12px;
+	padding-right: 3px;
+	vertical-align: center;
+}
+
+
+
+/* PROFILE*/
+
+/*-------------*/
+.pagerP {
+  margin: 20px 0;
+  text-align: center;
+  list-style: none;
+  *zoom: 1;
+  margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.pagerP:before,
+.pagerP:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.pagerP:after {
+  clear: both;
+}
+
+.pagerP li {
+  display: inline;
+  width: 50%;
+}
+
+.pagerP a,
+.pagerP span {
+  display: inline-block;
+  padding: 5px 14px;
+  /*background-color: #fff;*/
+  /*border: 1px solid #ddd;*/
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+}
+/*--------------*/
+
+.scoreImgGroup-profile {
+	width: 15px;
+	height: 13px;
+	padding-right: 3px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	vertical-align: center;
+}
+
+.colorContainer { 
+	/*background-color: #FFFEF8;
+	border-radius: 15px;*/
+	/* a container in case we wanted to color both the graph and score*/
+}
+
+.profileScores {
+	text-align: center;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+
+}
+
+.profile-score-container {
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: auto;   
+	margin-right: auto;
+	/*background-color: #EEEEEE;*/
+	color: #6E6E6E;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+    /* The background is used to specify the border background */
+    /*background: -moz-linear-gradient(90deg, #1288CD, #831519);
+    background: -webkit-linear-gradient(90deg, #1288CD, #831519);
+    /* Background origin is the padding box by default.
+    Override to make the background cover the border as well. */
+   /* -moz-background-origin: border;
+    background-origin: border-box;
+    /* A transparent border determines the width */
+    /*border: 4px solid transparent;
+    border-radius: 8px;
+   	/* This stuff below makes the border a border and not the background*/
+    /*box-shadow:
+        inset 0 0 12px #fff, /* Inset shadow */
+      /*  inset -999px 0 0 #fff; /* The background color */
+}
+
+.profileScoresNav {
+	text-align: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+}
+
+.profile-score-containerNav {
+	font-weight: normal;
+	text-align: center;
+	margin-left: auto;   
+	margin-right: auto;
+	background-color: #EEEEEE;
+	color: #6E6E6E;
+	border-radius: 10px;
+	padding-bottom: 2px;
+}
+
+.activeCircle {
+	height: 9px;
+	width: 9px;
+}
+
+.inactiveCircle {
+	height: 9px;
+	width: 9px;
+	opacity: 0.5;
+}
+
+
+.scrollCircles {
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+/*SEARCH*/
+
+.searchForm1 {
+	padding-top: 90px;
+}
+
+.searchBtn {
+	height: 40px;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 0px;
+	margin-left: -1px;
+}
+
+.searchForm {
+	text-align: center;
+}
+
+.searchBox {
+	margin: auto;
+	margin-right: -1px;
+	/*width: 284px;*/
+
+}
+
+.clear-holder{
+    position:relative;
+    float:left;  
+}
+.clear-helper{
+    position:absolute;
+    right:7px;
+    top: 10px;
+    cursor: pointer;
+    vertical-align: center;
+    height: 40px;
+    display: block;
+    z-index: 100; /*ensures it is in front*/
+}
+
+.clearImg {
+	height: 17px;
+	width:17px;
+}
+
+
+
+
+
+/* Stuff for the d3 graph*/
+.chart {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.axis text {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	color: #333;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #333;
+	shape-rendering: crispEdges;
+}
+.dot {
+	stroke: #831519;
+	fill: #1288CD;
+	opacity: 0.6;
+	stroke-width: 2px;
+	z-index: 1000;
+}
+
+.dotOther {
+	stroke: #1288CD;
+	fill: #831519;
+	opacity: 0.3;
+}
+
+.typeLabel {
+	fill: #6E6E6E;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+.backDot {
+	stroke: gray;
+	fill: gray;
+	opacity: 0.05;
+}
+
+
+/* Tutorial */
+.offset {
+	margin-top: 10px;
+}
+
+
+
+
+
